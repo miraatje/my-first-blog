@@ -2,6 +2,8 @@
     <h1><a href="/">Django Girls Blog</a></h1>
 </header>
 
+aantal post = {{ posts.count }}
+
 {% for post in posts %}
     <article>
         <time>published: {{ post.published_date }}</time>
